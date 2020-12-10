@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="449.0" prefWidth="623.0">
+         <children>
+            <Button fx:id="ButtonGetResult" layoutX="14.0" layoutY="157.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="289.0" text="Get Result">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Label layoutX="29.0" layoutY="355.0" prefHeight="61.0" prefWidth="114.0" text="Result:">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="LabelShowResult" layoutX="143.0" layoutY="355.0" prefHeight="61.0" prefWidth="106.0" text="Label">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="264.0" prefHeight="61.0" prefWidth="596.0" text="The number of consecutive identical elements">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="ButtonGetNewArray" layoutX="322.0" layoutY="157.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="289.0" text="Get new Array">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <TextField fx:id="TextFieldArray" layoutX="14.0" layoutY="14.0" prefHeight="107.0" prefWidth="596.0" promptText="Input Your Array. Format (1 2 3 ...)">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
